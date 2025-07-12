@@ -11,7 +11,7 @@ export default function Button({
   variant = "solid",
   className = "",
 }: ButtonProps) {
-  const base = "px-5 py-2 rounded-full font-semibold transition";
+  const base = "px-5 py-3 rounded-full font-semibold transition";
 
   const variants = {
     solid: "bg-primary text-white hover:bg-primary/90",
