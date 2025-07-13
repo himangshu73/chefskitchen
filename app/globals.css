@@ -54,4 +54,7 @@ body {
   h6 {
     @apply text-[20px];
   }
+  p {
+    @apply font-normal leading-[1.4] tracking-[0];
+  }
 }
