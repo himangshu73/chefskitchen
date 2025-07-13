@@ -3,8 +3,8 @@ import Button from "./Button";
 
 export default function Hero() {
   return (
-    <div className="flex">
-      <div>
+    <div className="flex py-20">
+      <div className="w-1/2">
         <h2>Cook Anything with the experts.</h2>
         <p>
           Sed ut perspiciantis unde omnis iste natus error sit oluptatem
@@ -15,7 +15,7 @@ export default function Hero() {
           <Button variant="outline">Explore now</Button>
         </div>
       </div>
-      <div>
+      <div className="w-1/2">
         <div>
           <Image src="/shapes.png" alt="shapes" height={400} width={400} />
         </div>

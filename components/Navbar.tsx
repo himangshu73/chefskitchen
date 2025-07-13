@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function Navbar() {
   return (
-    <nav className="px-24 py-4">
+    <nav className="py-3">
       <div className="flex items-center justify-between">
         <div className="flex gap-0.5">
           <Image src="/icon.png" height={20} width={20} alt="logo" />
