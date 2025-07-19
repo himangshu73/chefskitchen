@@ -3,6 +3,7 @@ import Features from "@/components/Features";
 import Features1 from "@/components/Features1";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
+import Newsletter from "@/components/Newsletter";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Features1 />
       <Chefs />
       <Gallery />
+      <Newsletter />
     </div>
   );
 }
