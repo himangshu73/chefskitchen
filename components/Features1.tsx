@@ -6,7 +6,7 @@ export default function Features1() {
     <div className="container mx-auto py-20">
       <div className="flex items-center justify-between">
         <div className="relative w-1/2 h-[536px]">
-          <div className="absolute bottom-0 left-0 bg-secondary rounded-tr-full w-[424px] h-[536px]"></div>
+          <div className="absolute bottom-0 left-0 bg-secondary rounded-tr-[20rem] rounded-l-xl rounded-br-xl w-[424px] h-[536px]"></div>
           <div className="absolute bottom-0 left-0">
             <Image src="/man.png" width={424} height={492} alt="man" />
           </div>
