@@ -8,7 +8,7 @@ export default function Chefs() {
           <p className="tracking-widest">EXPERT CHEFS</p>
           <h3>Let's meet the expert.</h3>
         </div>
-        <div className="flex gap-2 justify-between px-24 mt-12">
+        <div className="flex flex-col md:flex-row gap-2 md:justify-between items-center px-24 mt-12">
           <div className="flex flex-col gap-3 ">
             <div className="relative">
               <div className="bg-tertiary w-60 h-60 border-4 rounded-b-full rounded-l-full border-white"></div>

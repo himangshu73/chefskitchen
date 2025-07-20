@@ -3,8 +3,8 @@ import Button from "./Button";
 
 export default function Features1() {
   return (
-    <div className="container mx-auto py-20">
-      <div className="flex items-center justify-between">
+    <div className="container mx-auto py-10 md:py-20">
+      <div className="flex flex-col md:flex-row gap-6 md:gap-0 items-center justify-between">
         <div className="relative w-1/2 h-[536px]">
           <div className="absolute bottom-0 left-0 bg-secondary rounded-tr-[20rem] rounded-l-xl rounded-br-xl w-[424px] h-[536px]"></div>
           <div className="absolute bottom-0 left-0">

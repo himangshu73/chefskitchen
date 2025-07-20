@@ -2,14 +2,16 @@ import Image from "next/image";
 
 export default function Newsletter() {
   return (
-    <div className="container mx-auto py-20">
+    <div className="container mx-auto py-16">
       <div>
-        <div className="flex flex-col px-28 gap-12 w-full h-96 bg-primary rounded-tl-xl rounded-bl-xl rounded-br-xl rounded-tr-[20rem]">
+        <div className="flex flex-col gap-8 md:gap-12 p-6 lg:px-28 lg:py-20 bg-primary rounded-tl-xl rounded-bl-xl rounded-br-xl rounded-tr-[10rem] md:rounded-tr-[20rem]">
           <div className="mt-20">
-            <p className="tracking-widest text-white">NEWLETTER</p>
+            <p className="tracking-widest text-white text-sm md:text-base">
+              NEWLETTER
+            </p>
             <h3 className="text-white">Subscribe to our newsletter.</h3>
           </div>
-          <div className="w-1/2 relative">
+          <div className="w-full md:w-3/4 lg:w-1/2 relative">
             <input
               type="email"
               placeholder="youremail@domain.com"
