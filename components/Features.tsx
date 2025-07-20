@@ -11,8 +11,8 @@ export default function Features() {
           <br /> features.
         </h3>
       </div>
-      <div className="flex items-center justify-between mt-16 gap-6">
-        <div className="relative flex flex-col items-center justify-end gap-2 w-1/4 h-72 bg-gradient-to-b from-tertiary-15 to-white rounded-3xl px-4 py-6 ">
+      <div className="flex flex-col md:flex-row items-center justify-between mt-16 gap-16 md:gap-6">
+        <div className="relative flex flex-col items-center justify-end gap-2 w-1/2 md:w-1/4 h-72 bg-gradient-to-b from-tertiary-15 to-white rounded-3xl px-4 py-6 ">
           <div className="absolute -top-14 w-28 h-28 bg-white rounded-full shadow-xl flex items-center justify-center">
             <Image
               src="/menu.png"
@@ -31,7 +31,7 @@ export default function Features() {
             Learn more
           </Link>
         </div>
-        <div className="relative flex flex-col items-center justify-end gap-2 w-1/4 h-72 bg-gradient-to-b from-tertiary-15 to-white rounded-3xl px-4 py-6 ">
+        <div className="relative flex flex-col items-center justify-end gap-2 w-1/2 md:w-1/4 h-72 bg-gradient-to-b from-tertiary-15 to-white rounded-3xl px-4 py-6 ">
           <div className="absolute -top-14 w-28 h-28 bg-white rounded-full shadow-xl flex items-center justify-center">
             <Image
               src="/fried.png"
@@ -50,7 +50,7 @@ export default function Features() {
             Learn more
           </Link>
         </div>
-        <div className="relative flex flex-col items-center justify-end gap-2 w-1/4 h-72 bg-gradient-to-b from-tertiary-15 to-white rounded-3xl px-4 py-6 ">
+        <div className="relative flex flex-col items-center justify-end gap-2 w-1/2 md:w-1/4 h-72 bg-gradient-to-b from-tertiary-15 to-white rounded-3xl px-4 py-6 ">
           <div className="absolute -top-14 w-28 h-28 bg-white rounded-full shadow-xl flex items-center justify-center">
             <Image
               src="/chef.png"
@@ -69,7 +69,7 @@ export default function Features() {
             Learn more
           </Link>
         </div>
-        <div className="relative flex flex-col items-center justify-end gap-2 w-1/4 h-72 bg-gradient-to-b from-tertiary-15 to-white rounded-3xl px-4 py-6 ">
+        <div className="relative flex flex-col items-center justify-end gap-2 w-1/2 md:w-1/4 h-72 bg-gradient-to-b from-tertiary-15 to-white rounded-3xl px-4 py-6 ">
           <div className="absolute -top-14 w-28 h-28 bg-white rounded-full shadow-xl flex items-center justify-center">
             <Image
               src="/hot.png"
