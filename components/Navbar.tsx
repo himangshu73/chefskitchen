@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center gap-2 shrink-0">
           <Image src="/icon.png" height={24} width={24} alt="logo" />
-          <p className="text-base font-bold">Chef's Kitchen</p>
+          <p className="text-base font-bold">Chef&apos;s Kitchen</p>
         </div>
 
         <div className="hidden lg:flex gap-6">

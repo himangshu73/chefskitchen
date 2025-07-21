@@ -15,7 +15,7 @@ export default function Hero() {
             acusantium doloremque laudantium totam
           </p>
           <div className="flex flex-col md:flex-row justify-center md:justify-start gap-4 pt-4">
-            <Button>Let's Cook</Button>
+            <Button>Let&apos;s Cook</Button>
             <Button variant="outline">Explore now</Button>
           </div>
         </div>
