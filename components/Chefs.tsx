@@ -6,7 +6,7 @@ export default function Chefs() {
       <div className="container mx-auto py-20">
         <div className="flex flex-col items-center gap-2">
           <p className="tracking-widest">EXPERT CHEFS</p>
-          <h3>Let's meet the expert.</h3>
+          <h3>Let&apos;s meet the expert.</h3>
         </div>
         <div className="flex flex-col md:flex-row gap-2 md:justify-between items-center px-24 mt-12">
           <div className="flex flex-col gap-3 ">
