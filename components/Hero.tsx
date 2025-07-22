@@ -4,7 +4,7 @@ import Button from "./Button";
 export default function Hero() {
   return (
     <div className="bg-tertiary-15">
-      <div className="container mx-auto px-4 flex flex-col sm:flex-row-reverse">
+      <div className="container mx-auto px-4 py-8 flex flex-col sm:flex-row-reverse">
         <div className="relative w-full sm:w-1/2 aspect-5/6">
           <Image
             src="/shapes.png"
@@ -14,7 +14,13 @@ export default function Hero() {
           />
           <div>
             <div className="absolute bottom-20 right-0 w-3/4 aspect-526/644 bg-primary rounded-t-full"></div>
-            <Image src="/lady.png" fill className="object-contain" alt="lady" />
+            <Image
+              src="/lady.png"
+              fill
+              className="object-contain"
+              alt="lady"
+              priority
+            />
           </div>
         </div>
         <div className="flex flex-col gap-4 sm:gap-8 sm:w-1/2 sm:mt-52">
