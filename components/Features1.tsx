@@ -3,16 +3,16 @@ import Button from "./Button";
 
 export default function Features1() {
   return (
-    <div className="container mx-auto py-10 md:py-20">
-      <div className="flex flex-col md:flex-row gap-6 md:gap-0 items-center justify-between">
-        <div className="relative w-1/2 h-[536px]">
-          <div className="absolute bottom-0 left-0 bg-secondary rounded-tr-[20rem] rounded-l-xl rounded-br-xl w-[424px] h-[536px]"></div>
-          <div className="absolute bottom-0 left-0">
+    <div className="container mx-auto py-10 md:py-20 px-8">
+      <div className="flex flex-col md:flex-row gap-8 items-center justify-between">
+        <div className="relative w-full md:w-1/3 h-[536px]">
+          <div className="absolute bottom-0 left-0 z-0 bg-secondary rounded-tr-[20rem] rounded-l-xl rounded-br-xl w-full min-h-[35rem]"></div>
+          <div className="absolute bottom-0 left-0 z-10">
             <Image src="/man.png" width={424} height={492} alt="man" />
           </div>
         </div>
 
-        <div className="w-1/2 flex flex-col items-start">
+        <div className="w-full md:w-1/2 flex flex-col items-start">
           <div className="flex flex-col gap-3 mb-3">
             <p className="tracking-widest">COOK WITH US</p>
             <h3>Cooking together with the expert</h3>
