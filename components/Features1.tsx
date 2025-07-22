@@ -5,8 +5,8 @@ export default function Features1() {
   return (
     <div className="container mx-auto py-10 md:py-20 px-8">
       <div className="flex flex-col md:flex-row gap-8 items-center justify-between">
-        <div className="relative w-full md:w-1/3 h-[536px]">
-          <div className="absolute bottom-0 left-0 z-0 bg-secondary rounded-tr-[20rem] rounded-l-xl rounded-br-xl w-full min-h-[35rem]"></div>
+        <div className="relative w-full md:w-1/3 aspect-5/6">
+          <div className="absolute bottom-0 left-0 z-0 bg-secondary rounded-tr-[20rem] rounded-l-xl rounded-br-xl w-full h-full"></div>
           <div className="absolute bottom-0 left-0 z-10">
             <Image src="/man.png" width={424} height={492} alt="man" />
           </div>
