@@ -3,9 +3,9 @@ import Button from "./Button";
 
 export default function Features1() {
   return (
-    <div className="container mx-auto px-8">
+    <div className="container mx-auto px-8 py-8">
       <div className="flex flex-col md:flex-row gap-8">
-        <div className="relative w-full sm:w-1/2 aspect-5/6">
+        <div className="relative w-full sm:w-1/2 h-[400px] sm:h-auto">
           <div className="absolute bottom-0 left-0 z-0 bg-secondary rounded-tr-[20rem] rounded-l-xl rounded-br-xl w-full h-full"></div>
           <div className="absolute bottom-0 left-0 z-10 w-full h-full">
             <Image
@@ -13,7 +13,7 @@ export default function Features1() {
               fill
               alt="man"
               className="object-contain"
-              sizes="(max-width:639px) 100vw, 50vw"
+              sizes="(max-width:640px) 100vw, 50vw"
             />
           </div>
         </div>
@@ -23,7 +23,7 @@ export default function Features1() {
             <p className="tracking-widest">COOK WITH US</p>
             <h3>Cooking together with the expert</h3>
           </div>
-          <div className="flex flex-col gap-8 mb-8">
+          <div className="flex flex-col gap-8">
             <p>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
